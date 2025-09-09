@@ -44,7 +44,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: app
-          image: "jakirhosen9395/go-app-cicd:28"  # Jenkins will replace __TAG__ with ${BUILD_ID}
+          image: "jakirhosen9395/go-app-cicd:31"  # Jenkins will replace __TAG__ with ${BUILD_ID}
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
